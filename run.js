@@ -11,3 +11,28 @@
       fbq ('track', funnelPixeler);
       }
 });
+
+$(document).ready(function () {
+	 var funnelPixeler2 = getURLParameter("funnelpixeler2");
+	 {
+      fbq ('track', funnelPixeler2);
+      }
+	});
+$(document).ready(function () {
+	 var funnelPixeler3 = getURLParameter("funnelpixeler3");
+	 {
+      fbq ('track', funnelPixeler3);
+      }
+	});
+$(document).ready(function () {
+	 var funnelPixeler4 = getURLParameter("funnelpixeler4");
+	 {
+      fbq ('track', funnelPixeler4);
+      }
+	});
+$(document).ready(function () {
+	 var funnelPixeler5 = getURLParameter("funnelpixeler5");
+	 {
+      fbq ('track', funnelPixeler5);
+      }
+	});
