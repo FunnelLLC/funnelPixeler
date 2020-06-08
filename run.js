@@ -5,55 +5,55 @@
  * This was crafted and converted from codes my friends wrote. Check out CFProTools at https://cfpro.tools and Funnel Fix It at http://myfunnel.link/funnelfixit
  * You can check out my site at https://HawkMikado.com 
 */  
- $(document).ready(function () {
-	var funnelPixeler = getURLParameter("funnelpixeler");
-	var funnelPixeler2 = getURLParameter("funnelpixeler2");
-	var funnelPixeler3 = getURLParameter("funnelpixeler3");
-	var funnelPixeler4 = getURLParameter("funnelpixeler4");
-	var funnelPixeler5 = getURLParameter("funnelpixeler5");
-	var fpxLead = getURLParameter("fpxlead");
-	var fpxIC = getURLParameter("fpxic");
-	var fpxATC = getURLParameter("fpxatc");
-	var fpxReg = getURLParameter("fpxreg");
-	var fpxPurchase = getURLParameter("fpxpurchase");
-	var fpxGift = getURLParameter("fpxgift");
+ $(window).ready(function () {
+	var funnelPixeler = getURLParameter();
+	var funnelPixeler2 = getURLParameter();
+	var funnelPixeler3 = getURLParameter();
+	var funnelPixeler4 = getURLParameter();
+	var funnelPixeler5 = getURLParameter();
+	var fpxLead = getURLParameter();
+	var fpxIC = getURLParameter();
+	var fpxATC = getURLParameter();
+	var fpxReg = getURLParameter();
+	var fpxPurchase = getURLParameter();
+	var fpxGift = getURLParameter();
 	 
-	if {
+	if (getURLParameter = "funnelpixeler" ){
       fbq ('track', funnelPixeler);
       }
-	if {
+	if  (getURLParameter = "funnelpixeler" ){
       fbq ('track', funnelPixeler2);
       }
-	if {
+	if  (getURLParameter = "funnelpixeler3" ){
       fbq ('track', funnelPixeler3);
       }
-	if {
+	if  (getURLParameter = "funnelpixeler4" ){
       fbq ('track', funnelPixeler4);
       }
-	if {
+	if  (getURLParameter = "funnelpixeler5" ){
       fbq ('track', funnelPixeler5);
       }
-	if {
+	if  (getURLParameter = "fpxlead" ){
       fbq ('track', fpxLead);
       fbq('track', 'Lead');
       }
-	if {
+	if (getURLParameter = "fpxic" ){
       fbq ('track', fpxIC);
       fbq('track', 'InitiateCheckout');
       }
-	if {
+	if (getURLParameter = "fpxatc" ){
       fbq ('track', fpxATC);
       fbq('track', 'AddToCart');
       }
-	if {
+	if (getURLParameter = "fpxreg" ){
       fbq ('track', fpxReg);
       fbq('track', 'CompleteRegistration');
       }
-	if {
+	if (getURLParameter = "fpxpurchase" ){
       fbq ('track', fpxPurchase);
       fbq('track', 'Purchase');
       }
-	if {
+	if (getURLParameter = "fpxgift" ){
       $('[data-title='+fpxGift+']').show();
       fbq ('track', fpxGift);
       }
