@@ -7,32 +7,54 @@
 */  
  $(document).ready(function () {
 	var funnelPixeler = getURLParameter("funnelpixeler");
-	 {
+	var funnelPixeler2 = getURLParameter("funnelpixeler2");
+	var funnelPixeler3 = getURLParameter("funnelpixeler3");
+	var funnelPixeler4 = getURLParameter("funnelpixeler4");
+	var funnelPixeler5 = getURLParameter("funnelpixeler5");
+	var fpxLead = getURLParameter("fpxlead");
+	var fpxIC = getURLParameter("fpxic");
+	var fpxATC = getURLParameter("fpxatc");
+	var fpxReg = getURLParameter("fpxreg");
+	var fpxPurchase = getURLParameter("fpxpurchase");
+	var fpxGift = getURLParameter("fpxgift");
+	 
+	if {
       fbq ('track', funnelPixeler);
       }
-});
-
-$(document).ready(function () {
-	 var funnelPixeler2 = getURLParameter("funnelpixeler2");
-	 {
+	if {
       fbq ('track', funnelPixeler2);
       }
-	});
-$(document).ready(function () {
-	 var funnelPixeler3 = getURLParameter("funnelpixeler3");
-	 {
+	if {
       fbq ('track', funnelPixeler3);
       }
-	});
-$(document).ready(function () {
-	 var funnelPixeler4 = getURLParameter("funnelpixeler4");
-	 {
+	if {
       fbq ('track', funnelPixeler4);
       }
-	});
-$(document).ready(function () {
-	 var funnelPixeler5 = getURLParameter("funnelpixeler5");
-	 {
+	if {
       fbq ('track', funnelPixeler5);
       }
-	});
+	if {
+      fbq ('track', fpxLead);
+      fbq('track', 'Lead');
+      }
+	if {
+      fbq ('track', fpxIC);
+      fbq('track', 'InitiateCheckout');
+      }
+	if {
+      fbq ('track', fpxATC);
+      fbq('track', 'AddToCart');
+      }
+	if {
+      fbq ('track', fpxReg);
+      fbq('track', 'CompleteRegistration');
+      }
+	if {
+      fbq ('track', fpxPurchase);
+      fbq('track', 'Purchase');
+      }
+	if {
+      $('[data-title='+fpxGift+']').show();
+      fbq ('track', fpxGift);
+      }
+});
