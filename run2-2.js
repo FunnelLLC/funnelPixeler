@@ -1,7 +1,7 @@
  $(document).ready(function () {
-	var funnelPixeler = getURLParameter("funnelpixeler");
+	var funnelPixeler1 = getURLParameter("funnelpixeler1");
 	 {
-      fbq ('track', funnelPixeler);
+      fbq ('track', funnelPixeler1);
       }
 	 var funnelPixeler2 = getURLParameter("funnelpixeler2");
 	 {
