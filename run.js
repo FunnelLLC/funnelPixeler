@@ -6,7 +6,7 @@
  * You can check out my site at https://HawkMikado.com 
 */  
  $(window).ready(function () {
-	var funnelPixeler = getURLParameter();
+	var funnelPixeler1 = getURLParameter();
 	var funnelPixeler2 = getURLParameter();
 	var funnelPixeler3 = getURLParameter();
 	var funnelPixeler4 = getURLParameter();
@@ -18,8 +18,8 @@
 	var fpxPurchase = getURLParameter();
 	var fpxGift = getURLParameter();
 	 
-	if (getURLParameter = "funnelpixeler" ){
-      fbq ('track', funnelPixeler);
+	if (getURLParameter = "funnelpixeler1" ){
+      fbq ('track', funnelPixeler1);
       }
 	if  (getURLParameter = "funnelpixeler" ){
       fbq ('track', funnelPixeler2);
